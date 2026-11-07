@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeeee;
+  color: #222222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login,
+.contenedor {
+  width: 90%;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #cccccc;
+}
+
+.login {
+  max-width: 400px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+}
+
+input,
+select,
+button {
+  padding: 9px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.mensaje {
+  padding: 10px;
+  background: #fff3cd;
+  border: 1px solid #d6c36a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+  text-align: left;
+}
+
+.cargando {
+  text-align: center;
+  margin-top: 50px;
+}
